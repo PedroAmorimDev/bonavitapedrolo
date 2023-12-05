@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/stylehome.css">
+</head>
+
+<body class="bodylogin">
+    <nav class="navbar">
+        <a class="nav-link" href="./index.html">HOME &nbsp&nbsp</a>
+        <a class="nav-link" href="./contato.html">CONTATO &nbsp&nbsp</a>
+        <a class="nav-link" href="">PORTAL &nbsp&nbsp</a>
+        <a class="nav-link" href="#balao">SERVIÇOS &nbsp&nbsp</a>
+        <a class="login" href="./login.html">LOGIN &nbsp&nbsp</a>
+        <button class="cadastro"> CADASTRO</button>
+    </nav>
+
+    <section class="sectionlogin">
+        <div class="logosconta">
+        <div class="google"> <img src="../img/imgoogle.jpg" alt="" height="30px" width="30px"></div>
+
+            <div class="ios"><img src="../img/imgaple.jpg" alt="" height="30px" width="30px"></div>
+        </div>
+
+        <div class="divisao"> <strong> --------------------------------------- OU ---------------------------------------</strong></div>
+        <div id="sucessoLOGIN" class="acerto">✅ Cadastro Realizado</div>
+        <div class="container">
+        <form id="formularioEntrar">
+            <div class="input-container">
+                <img class="usuariologo" src="../img/loginusua.png" alt="" height="44px" width="40px">
+                <input class="loginemail" type="text" id="emaillogin" >
+               </div>
+            <div id="error-required-emaillogin" class="error">⚠️ Campo obrigatório</div>
+            <div id="error-required-emailvalidoentrar" class="error">⚠️ Email inválido</div>
+            <div class="input-container">
+                <img class="usuariologos" src="../img/senhausua.png" alt="" height="44px" width="40px">
+                <input class="loginsenha"  type="password" id="senhalogin" >
+               </div>
+            <div id="error-required-senhalogin" class="error">⚠️ Campo obrigatório</div>
+            <div id="error-required-senhalogin8" class="error">⚠️ A senha deve conter 8 caracteres </div>
+            <button class="submitlogin" id="btnSend">AVANÇAR</button>
+        </form></div>
+    </section>
+
+    <script src="../js/validacaocadastro.js"></script>
+</body>
+
+</html>
